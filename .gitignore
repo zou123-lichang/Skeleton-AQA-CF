@@ -1,0 +1,34 @@
+# Data and checkpoints
+data/
+checkpoints/
+KIMORE_DATASET/
+
+# Generated outputs
+results/
+results*/
+*.csv
+*.png
+*.pdf
+*.log
+
+# Model weights and processed data
+*.pth
+*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
